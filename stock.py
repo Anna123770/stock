@@ -47,7 +47,7 @@ if com_filter == 'Google':
 
 
 if com_filter == 'Facebook':
-    st.markdown(''' ## show the data of META''' )
+    st.markdown(''' ## show the data of Facebook''' )
     options = np.array(df_META['Date']).tolist()
     st.sidebar.markdown('''\n \n \n \n \n''')
     (start_time, end_time) = st.sidebar.select_slider("",options = options,value= ('2022-05-04','2018-06-27',),)
